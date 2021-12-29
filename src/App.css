@@ -1,38 +1,137 @@
-.App {
-  text-align: center;
+.box{
+  background-color: black;
+  /* height: 80px; */
+  line-height: 64px;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.img-logo{
+  margin-top: 11px;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+.text-nav{
+  color: white;
+  font-family: 'Montserrat', sans-serif;
+  font-size: 14px;
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
+.img-mainBanner, .img-introduction, .img-bes{
+  max-width: 100%;  
+  height: auto; 
+}
+
+.position-introduction{
+  position: relative;
+}
+
+.position-c-introduction{
+  position: absolute;
+  top: 28%;
+  left: 8.7%;
+  font-family: 'Montserrat', sans-serif;
   color: white;
 }
 
-.App-link {
-  color: #61dafb;
+.text-h-introduction{
+  font-size: 50px;
+  font-weight: 800;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.text-p-introduction{
+  font-size: 20px;
+  font-weight: normal;
+}
+
+.img-bestP{
+  width: 30%;
+  height: auto;
+}
+
+.position-bes{
+  position: relative;
+}
+
+.p-best-product{
+  position: absolute;
+  top: 10%;
+  left: 25%;
+  right: 25%;
+  text-align: center;
+  font-family: 'Montserrat', sans-serif;
+  color: #f96400;
+}
+
+.text-h-best-product{
+  font-size: 50px;
+  font-weight: bold;
+  font-stretch: normal;
+  font-style: normal;
+}
+
+.text-p-best-product{
+  font-size: 20px;
+  font-weight: normal;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 1.6;
+}
+
+.position-img-bestP{
+  position: absolute;
+  top: 33.7%;
+  left: 9%;
+}
+
+.img-numbestP{
+  margin-left: 108%;
+} 
+
+.position-img-numbestP{
+  position: absolute;
+  display: flex;
+  flex-direction: row;
+  max-width: 100%;
+  top: 28.3%;
+  left: -12.1%;
+}
+
+.img-go-icon{
+  max-width: 80%;
+  margin-top: 8%;
+}
+
+.tape{
+  display: flex;
+  flex-direction: row;
+  background-color: white;
+  border: #000 solid 3px;
+  width: 20%;
+  margin-left: 8%;
+}
+
+.tape-c{
+  width: 100%;
+}
+
+.text-p-tape{
+  font-family: 'Montserrat', sans-serif;
+  font-size: 15px;
+  font-weight: 800;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 1.25;
+  margin-left: 4%;
+  margin-top: 2%;
+}
+
+p{
+  margin-bottom: 0;
+}
+
+.position-tape{
+  display: flex;
+  flex-direction: row;
+  position: absolute;
+  bottom: 15%;
+  left: 4%;
+  width: 100%;
 }
